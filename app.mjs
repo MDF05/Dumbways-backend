@@ -10,7 +10,7 @@ const port = 3000 || process.env.port
 
 app.use(
     cors({
-        origin: ["https://dumbways-nine.vercel.app"],
+        origin: ["https://dumbways-nine.vercel.app", "http://127.0.0.1:5501"],
     }),
 )
 app.use(express.json())
